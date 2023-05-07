@@ -1,11 +1,11 @@
-const fs = require("fs / promises");
+const { readFile, writeFile } = require("fs/promises");
 const path = require("path");
 const { nanoid } = require("nanoid");
 
-const contactsPath = path.join(__dirname, "contacts.json");
+const contactsPath = path.join(__dirname, "db", "contacts.json");
 
 const getContacts = async () => {
-  const data = await fs.readFile(contactsPath);
+  const data = await readFile(contactsPath);
   return JSON.parse(data);
 };
 
@@ -30,15 +30,17 @@ async function removeContact(contactId) {
   return result;
 }
 
-async function addContact(name, email, phone) {
+async function addContact({ name, email, phone }) {
   const contacts = await getContacts();
   const newContact = { name, email, phone, id: nanoid() };
 
   contacts.push(newContact);
+
   writeFile(contactsPath, JSON.stringify(contacts, null, 2));
 
   return newContact;
 }
+
 module.exports = {
   getContacts,
   listContacts,
