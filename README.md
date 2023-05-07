@@ -1,10 +1,10 @@
 # goit-homework-node-1
 
 List of Contacts
-image.png
+https://monosnap.com/file/55eSEzAGhTGe6V3HBxuZQV1pl1z6e3
 Get Contact
-image.png
+https://monosnap.com/file/mK9O5zFXghsNE0qxEHkxM1jv30QUeW
 Add Contact
-image.png
+https://monosnap.com/file/Mih8gJF0Y0YybQF1fDbdBhkgR3joZx
 Remove Contact
-image.png
+https://monosnap.com/file/Ow8UPzxhdfIcdD3yG4un1qTVvvw5Nk
