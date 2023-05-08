@@ -1,17 +1,15 @@
 # goit-homework-node-1
 
-# listContacts
-
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
-
-[![ссылка на картинку - list](./img/list_of_contacts1.png)]
-(https://monosnap.com/file/55eSEzAGhTGe6V3HBxuZQV1pl1z6e3)
+![List of Contacts](https://github.com/Valeriia2306/goit-homework-node-1/blob/main/images/list_of_contacts.png)
 
 ---
 
-Get Contact
-https://monosnap.com/file/mK9O5zFXghsNE0qxEHkxM1jv30QUeW
-Add Contact
-https://monosnap.com/file/Mih8gJF0Y0YybQF1fDbdBhkgR3joZx
-Remove Contact
-https://monosnap.com/file/Ow8UPzxhdfIcdD3yG4un1qTVvvw5Nk
+![Get Contact](https://github.com/Valeriia2306/goit-homework-node-1/blob/main/images/get_id.png)
+
+---
+
+![Add Contact](https://github.com/Valeriia2306/goit-homework-node-1/blob/main/images/add_contact.png)
+
+---
+
+![Remove Contact](https://github.com/Valeriia2306/goit-homework-node-1/blob/main/images/remove_contact.png)
