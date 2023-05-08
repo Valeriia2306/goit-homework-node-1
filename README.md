@@ -2,6 +2,8 @@
 
 # listContacts
 
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+
 [![ссылка на картинку - list](./img/list_of_contacts1.png)]
 (https://monosnap.com/file/55eSEzAGhTGe6V3HBxuZQV1pl1z6e3)
 
