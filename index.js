@@ -17,7 +17,7 @@ program.parse(process.argv);
 
 const argv = program.opts();
 
-// TODO: рефакторить
+
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
     case "list":
@@ -47,12 +47,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 
 invokeAction(argv);
 
-// invokeAction({ action: 'list' })
-// invokeAction({ action: 'get', id: '1DEXoP8AuCGYc1YgoQ6hw' })
-// invokeAction({ action: 'remove', id: 'C9sjBfCo4UJCWjzBnOtxl' })
-// invokeAction({
-// 	action: 'add',
-// 	name: 'Mango',
-// 	phone: '093-050-50-05',
-// 	email: 'mango@gmail.com',
-// })
